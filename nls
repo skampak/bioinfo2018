@@ -1,0 +1,5 @@
+
+#!/bin/bash
+
+# ls in a list, find
+ls -l | grep '^-' | wc -l
